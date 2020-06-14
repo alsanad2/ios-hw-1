@@ -10,20 +10,18 @@ var name = "Ahmad"
 
  
  
-  name = " Salem"
+var lastName = "alsalem"
 
 
 
-var  myWeight = 60
+var  myWeight = 60.0
 var FriendWeight = 80.5
 var height = 1.5
 
 
-var str = "weightSum = myWeight + FriendWeight"
+var weightSum = myWeight + FriendWeight
 
-
-
-var bmi = "myWeight * (height * height)"
+var bmi =  myWeight * (height *  height)
 
 /*
 - - - -
@@ -53,11 +51,11 @@ var password = "0000"
 var isKuwaiti = true
 
 //Person 2
-var tname2 = "rashid"
+var name2 = "rashid"
 var lastname2   = "alsanad"
 var email2   = "alsanad35@hotmailo.com"
 var phoneNumber2 = "55088112"
-var  age2  = 19
+var  age2  = 18
 var country2 = "kuwait"
 var  area2  = "sabah alnaser"
 var  password2  = "9999"
@@ -65,31 +63,41 @@ var  Kuwaiti = true
 
 
 
-
-
-
-
-
 //Person 3
-var  tName3  = "hamad"
+var  Name3  = "hamad"
 var lastName3 = "alsanad"
 var email3  = "alsanad2@hotmail.com"
 var phoneNumber3  = "55556666"
-var age3  = 20
+var age3  = 18
 var country3 = "kuwait"
 var area3  = "sabah alnaser"
 var password3  = "6666"
 var isKuwaiti3  = true
 
+firstName1 != name2
+name2 != Name3
+Name3 != firstName1
 
+firstName1 == name2
+name2 == Name3
+Name3 == firstName1
 
+lastName1 != lastname2
+ lastname2 != lastName3
+lastName3 != lastName1
 
+lastName1 == lastname2
+ lastname2 == lastName3
+lastName3 == lastName1
 
+email1 != email2
+email2 != email3
+email3 != email1
 
-
-
-/*
-- - - -
+email1 == email2
+email2 == email3
+email3 == email1/*
+ 
 # المطلوب الثالث
 * قم بمقارنة معلومات كل شخص مع الشخص الاخر
  * قارن الاعمار اذا كانت متساوية ام لا
@@ -100,9 +108,61 @@ var isKuwaiti3  = true
  * قارن اذا عمر الاشخاص لا يساوي  ١٧
 جميع الاعمارغير  متساويه
  جميع مناطق السكن متساويه
- */ "اكبر من ١٨"
-"اصغر من١٨"
-"لايساوي ١٧"
-"اكبر من ١٧"
-"نعم"
-"نعم"
+ */
+phoneNumber1 != phoneNumber2
+phoneNumber2 != phoneNumber3
+phoneNumber3 != phoneNumber1
+
+phoneNumber1 == phoneNumber2
+phoneNumber2 == phoneNumber3
+phoneNumber3 == phoneNumber1
+
+age1 != age2
+age2 !=  age3
+age3 != age1
+
+age1 == age2
+age2 ==  age3
+age3 == age1
+
+
+
+
+
+
+
+
+
+
+age1 == age2
+age2 == age3
+age3 == age1
+
+area1 == area2
+area2 == area3
+
+age1  >= 18 && age2 >= 18 && age3  >= 18
+age1  <= 18 && age2  <= 18 && age3  <= 18
+age1 == 17 && age2 == 17  && age3  == 17
+age1 != 17  && age2 != 17 && age3  != 17
+
+ 
+   age1 == age2
+age2 ==  age3
+age3 == age1
+ 
+ 
+age1 != age2
+age2 !=  age3
+age3 != age1
+
+area1 == area2
+area2 == area3
+area3 == area1
+ 
+area1 != area2
+area2 != area3
+area3 != area1
+
+
+
